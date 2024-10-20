@@ -4,7 +4,7 @@ Os valores da Cesta Básica de Alimentos (CBA) são calculados pelo Projeto de E
 
 O objetivo desta pesquisa é prever os valores da CBA para os 12 meses subsequentes à publicação mensal dos boletins, disponibilizando essas previsões no site da Universidade. Esse processo visa ancorar as expectativas dos agentes econômicos, além de fomentar a interação e fornecer informações úteis para trabalhos acadêmicos.
 
-[Clique aqui para acessar o resultado final da visualização](https://www.unioeste.br/portal/determinacao-do-custo-da-cesta-basica-de-alimentos/inicio)
+[Clique aqui para acessar o resultado final da visualização.](https://www.unioeste.br/portal/determinacao-do-custo-da-cesta-basica-de-alimentos/inicio)
 
 ![Clique aqui](./images/cba_bi.png)
 
