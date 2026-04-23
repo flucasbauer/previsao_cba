@@ -1,20 +1,15 @@
-## Previsão dos Preços da Cesta Básica de Alimentos (CBA) de Cascavel-PR Para 12 Meses
+### Contexto
 
-Os valores da Cesta Básica de Alimentos (CBA) são calculados pelo Projeto de Extensão do curso de Economia da Unioeste, utilizando dados coletados pela equipe do projeto com base na metodologia do DIEESE.
+O preço médio mensal da Cesta Básica de Alimentos é um indicador nacional consolidado, calculado pelo DIEESE desde 1959 para 17 estados brasileiros. Esse índice mede a variação de preços de um conjunto de 13 alimentos considerados essenciais, conforme definido pelo Decreto-Lei nº 399, de 30 de abril de 1938, que regulamentou o salário mínimo no Brasil. A legislação estabelece que essa cesta deve conter quantidades suficientes para garantir, ao longo de um mês, o sustento e o bem-estar de um trabalhador adulto (DIEESE, 2026).
 
-O objetivo desta pesquisa é prever os valores da CBA para os 12 meses subsequentes à publicação mensal dos boletins, disponibilizando essas previsões no site da Universidade. Esse processo visa ancorar as expectativas dos agentes econômicos, além de fomentar a interação e fornecer informações úteis para trabalhos acadêmicos.
+Com o objetivo de fornecer informações à sociedade sobre os gastos com alimentação, auxiliar no planejamento do orçamento familiar e orientar decisões relacionadas ao custo de vida local, além de apoiar estratégias de negócios, o projeto de extensão da Unioeste publica mensalmente o boletim da cesta básica familiar de Cascavel, apresentando análises das variações observadas. A pesquisa segue a metodologia do DIEESE e conta com a participação de estudantes do Centro de Ciências Sociais Aplicadas do campus de Cascavel, responsáveis pela coleta semanal de preços em diferentes mercados da cidade.
 
-[Clique aqui para acessar o resultado final da visualização.](https://www.unioeste.br/portal/determinacao-do-custo-da-cesta-basica-de-alimentos/inicio)
+Ao ingressar no projeto, identifiquei a oportunidade de utilizar essa base de dados para desenvolver dashboards que facilitassem o acesso e a análise das informações por parte da sociedade e da comunidade acadêmica. Com o apoio do coordenador e dos professores envolvidos, elaborei um painel dinâmico, atualizado mensalmente, [disponível para consulta pública.](https://www.unioeste.br/portal/determinacao-do-custo-da-cesta-basica-de-alimentos/inicio)
 
-![Clique aqui](./images/cba_bi.png)
+Além disso, com o intuito de ampliar o suporte aos usuários, desenvolvi projeções dos preços médios para um horizonte de 12 meses, utilizando o modelo SARIMA para previsão de séries temporais. As seções a seguir apresentam a metodologia adotada para a escolha do modelo.
 
 ## Metodologia
-Foi utilizado técnica SARIMA (Seasonal Autoregressive Integrated Moving Average) que é uma extensão do modelo ARIMA, projetada para lidar com dados que apresentam padrões sazonais. A metodologia SARIMA incorpora três componentes principais: autorregressivo (AR), integração (I), e média móvel (MA), além de ajustes específicos para a sazonalidade dos dados, considerando repetições periódicas ao longo do tempo.
-
-No modelo SARIMA, além dos parâmetros comuns do ARIMA (p, d, q), são incluídos componentes sazonais (P, D, Q) e o período da sazonalidade (S). Isso permite capturar padrões que se repetem em ciclos, como a variação dos preços da cesta básica de alimentos em diferentes épocas do ano. SARIMA é amplamente utilizado em previsões de séries temporais com sazonalidade, proporcionando uma abordagem robusta para previsões de longo prazo, como a projeção de 12 meses.
-
-## Continuação de Estudo
-O próximo objetivo é replicar o estudo, com as devidas adaptações, utilizando as bases de dados dos projetos da CBA nos campi de Toledo-PR e Francisco Beltrão-PR. Isso permitirá a criação de visualizações em BI, tanto para as séries temporais da CBA e dos alimentos individuais, quanto para as previsões de 12 meses, destacando as particularidades da região Oeste do Paraná.
+(Em atualização)
 
 
 
